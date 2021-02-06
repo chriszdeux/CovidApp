@@ -1,0 +1,36 @@
+:root {
+  --background-color: #222831;
+  --darkblue-color: #30475E;
+  --red-color: #F05454;
+  --green-color: #5BC172;
+  --main-color: #FCFCFC;
+
+  --small-font-size: 1.4rem;
+  --regular-font-size: 1.6rem;
+  --large-font-size: 1.8rem;
+  --extra-large-font-size: 2.3rem;
+
+  --ligh-font: 200;
+  --normal-font: 400;
+  --heavy-font: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  /* background-color: var(--background-color); */
+  font-size: var(--small-font-size);
+}
+
+.container {
+  width: 100%;
+}

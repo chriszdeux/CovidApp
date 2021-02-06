@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  background-color: var(--darkblue-color);
+  color: var(--main-color);
+  box-shadow: 0 0 16px 3px var(--background-color);
+}
+
+.navbar .navbar--date {
+  font-size: var(--small-font-size);
+  font-weight: var(--ligh-font);
+}
+
+.navbar .navbar--menu {
+  font-size: var(--extra-large-font-size);
+  transform: rotate(45deg);
+}

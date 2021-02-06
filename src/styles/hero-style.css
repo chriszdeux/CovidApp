@@ -1,0 +1,28 @@
+.hero {
+  position: absolute;
+  top: 0;
+  height: 600px;
+  z-index: -1;
+
+}
+
+.hero .hero__img__container {
+  width: 100%;
+  height: inherit;
+}
+
+.hero__img__container .hero--img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.hero .hero--info {
+  position: absolute;
+  bottom: 10%;
+  right: 15px;
+  font-size: var(--large-font-size);
+  color: var(--main-color);
+  text-align: right;
+}
